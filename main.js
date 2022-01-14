@@ -173,13 +173,13 @@ var $lastLi = $siteList.find("li.last");
 var x = localStorage.getItem("getData");
 var xObject = JSON.parse(x);
 var hashMap = xObject || [{
-  logo: "听歌",
+  logo: "音乐",
   url: "http://tool.liumingye.cn/music/?page=homePage"
 }, {
-  logo: "观影",
+  logo: "电影",
   url: "http://www.gotobt.com"
 }, {
-  logo: "游戏",
+  logo: "弱智游戏",
   url: "http://h.4399.com"
 }];
 
